@@ -3,10 +3,11 @@ public class Node
 {
 	public char label;
 	public boolean visited = false;
+	Node next;
 	
-	public Node(char l)
+	public Node(Node next)
 	{
-		this.label = l;
+		this.next = next;
 	}
 
 }
